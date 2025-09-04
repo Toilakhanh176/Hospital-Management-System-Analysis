@@ -39,7 +39,7 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 > Thêm vào thư mục `images/` khi có file ảnh
 
 - **ERD**  
-  ![ERD](images/ERD.png)
+  ![ERD](images/erd.png)
 
 - **Use Case**  
   ![UseCase](images/UseCase.png)
