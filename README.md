@@ -1,5 +1,8 @@
 # 🏥 Hospital Management System – System Analysis
 
+## Authors
+**Lê Phúc Bảo Ngọc**
+**Bùi Mai Khanh**
 
 ## Giới thiệu
 Trong nhiều bệnh viện, quy trình tiếp nhận và quản lý bệnh nhân vẫn còn thủ công, gây:
@@ -34,21 +37,27 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 - Thiết kế giao diện (app/web cho bệnh nhân, nội bộ cho nhân viên)
 
 ---
+## Hình minh họa
+### ERD
+![ERD](images/erd.png)
 
-## 📸 Hình minh họa (giả định)
-> Thêm vào thư mục `images/` khi có file ảnh
+### Use Case
+![Use Case](images/use-case.jpg)
 
-- **ERD**  
-  ![ERD](images/erd.png)
+### DFD – Mô hình ngữ cảnh
+![DFD Context](images/dfd_context.jpg)
 
-- **Use Case**  
-  ![UseCase](images/UseCase.png)
+### DFD – Mức 0
+![DFD Level 0](images/dfd_0.jpg)
 
-- **DFD Mức 0**  
-  ![DFD](images/DFD_Level0.png)
+### Biểu đồ phân cấp chức năng (BPC)
+![BPC](images/bpc.png)
 
-- **Giao diện App/Web**  
-  ![UI](images/UI.png)
+### BPMN – AS-IS
+![BPMN AS-IS](images/BPMNDiagram1.png)
+
+### BPMN – TO-BE
+![BPMN TO-BE](images/BPMNDiagram2.png)
 
 ---
 
