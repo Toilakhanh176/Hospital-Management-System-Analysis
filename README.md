@@ -18,7 +18,7 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 
 ---
 
-## 📂 Nội dung tài liệu
+## Nội dung
 
 ### Phần 1. Xác định yêu cầu
 - Mô hình cơ cấu tổ chức
@@ -48,7 +48,7 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 ![DFD Context](images/dfd_context.jpg)
 
 ### DFD – Mức 0
-![DFD Level 0](images/dfd_0.jpg)
+![DFD Level 0](images/dfd 0.jpg)
 
 ### Biểu đồ phân cấp chức năng (BPC)
 ![BPC](images/bpc.png)
@@ -61,7 +61,7 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 
 ---
 
-## 🛠️ Công nghệ gợi ý triển khai (nếu dùng thực tế)
+## 🛠️ Đề xuất triển khai
 Nếu triển khai thành hệ thống thực tế, có thể dùng:
 - **Frontend**: ReactJS / Vue / Angular
 - **Backend**: Node.js / Java Spring Boot / .NET Core
