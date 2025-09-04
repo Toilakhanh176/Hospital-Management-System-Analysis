@@ -1,8 +1,8 @@
 # 🏥 Hospital Management System – System Analysis
 
-## Authors
-**Lê Phúc Bảo Ngọc**
-**Bùi Mai Khanh**
+## Authors:
+- **Bùi Mai Khanh**
+- **Lê Phúc Bảo Ngọc**
 
 ## Giới thiệu
 Trong nhiều bệnh viện, quy trình tiếp nhận và quản lý bệnh nhân vẫn còn thủ công, gây:
