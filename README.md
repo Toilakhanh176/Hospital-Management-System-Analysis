@@ -4,53 +4,65 @@
 - **Bùi Mai Khanh**
 - **Lê Phúc Bảo Ngọc**
 
-## Giới thiệu
-Trong nhiều bệnh viện, quy trình tiếp nhận và quản lý bệnh nhân vẫn còn thủ công, gây:
-- Thời gian chờ lâu
-- Sai sót trong lưu trữ thông tin
-- Khó kiểm soát chi phí & thuốc men
+# 🏥 Hospital Management System – System Analysis
 
-Hệ thống được phân tích trong tài liệu này hướng tới:
-- **Số hóa quy trình** khám chữa bệnh
-- **Tích hợp web/app** để bệnh nhân tự đăng ký
-- **Quản lý tự động** hồ sơ, thuốc, viện phí
-- **Minh bạch & chính xác** trong nghiệp vụ y tế
+## Authors
+- Bùi Mai Khanh  
+- Lê Phúc Bảo Ngọc  
 
 ---
 
-## Nội dung
+## Introduction
+In many hospitals, the process of patient admission and management is still manual, leading to:
 
-### Phần 1. Xác định yêu cầu
-- Mô hình cơ cấu tổ chức
-- Nhu cầu người dùng & yêu cầu phần mềm
-- Biểu mẫu (đăng ký khám, phiếu khám, hóa đơn…)
-- Quy định bệnh viện
-- Bảng trách nhiệm
-- Mô tả chi tiết yêu cầu nghiệp vụ
+- Long waiting times  
+- Errors in data storage  
+- Difficulty in controlling costs and medicines  
 
-### Phần 2. Phân tích hệ thống
-- Biểu đồ phân cấp chức năng (BPC)
-- Sơ đồ luồng dữ liệu (DFD: Context & Level 0)
-- Mô hình thực thể – mối kết hợp (ERD)
-- Use Case Diagram
-- BPMN (AS-IS, TO-BE)
-- Thiết kế giao diện (app/web cho bệnh nhân, nội bộ cho nhân viên)
+The system analyzed in this project aims to:
+
+- **Digitalize the medical examination and treatment process**  
+- **Integrate web/app platforms** for patient self-registration  
+- **Automate management** of medical records, prescriptions, and hospital fees  
+- Ensure **transparency and accuracy** in healthcare operations  
 
 ---
-## Hình minh họa
+
+## Contents
+
+### Part 1. Requirement Definition
+- Organizational structure model  
+- User needs & software requirements  
+- Forms (registration, medical examination sheet, invoice…)  
+- Hospital regulations  
+- Responsibility matrix  
+- Detailed business process descriptions  
+
+### Part 2. System Analysis
+- Function decomposition diagram (BPC)  
+- Data Flow Diagrams (DFD: Context & Level 0)  
+- Entity-Relationship Diagram (ERD)  
+- Use Case Diagram  
+- BPMN (AS-IS, TO-BE)  
+- UI mockups (App/Web for patients, Internal system for staff)  
+
+---
+
+## Illustrations
+
 ### ERD
 ![ERD](images/erd.png)
 
 ### Use Case
 ![Use Case](images/use-case.jpg)
 
-### DFD – Mô hình ngữ cảnh
+### DFD – Context
 ![DFD Context](images/dfd_context.jpg)
 
-### DFD – Mức 0
+### DFD – Level 0
 ![DFD Level 0](images/dfd_0.jpg)
 
-### Biểu đồ phân cấp chức năng (BPC)
+### Function Decomposition (BPC)
 ![BPC](images/bpc.png)
 
 ### BPMN – AS-IS
@@ -61,22 +73,22 @@ Hệ thống được phân tích trong tài liệu này hướng tới:
 
 ---
 
-## Đề xuất triển khai
-Nếu triển khai thành hệ thống thực tế, có thể dùng:
-- **Frontend**: ReactJS / Vue / Angular
-- **Backend**: Node.js / Java Spring Boot / .NET Core
-- **Database**: MySQL / PostgreSQL
-- **Triển khai**: Docker + CI/CD trên GitHub Actions
-- **Authentication**: OAuth2 / JWT
-- **Thanh toán**: Tích hợp cổng thanh toán (VNPay, Momo…)
+## Suggested Implementation
+If implemented as a real hospital management system, the following technology stack can be used:
+
+- **Frontend**: ReactJS / Vue / Angular  
+- **Backend**: Node.js / Java Spring Boot / .NET Core  
+- **Database**: MySQL / PostgreSQL  
+- **Deployment**: Docker + CI/CD with GitHub Actions  
+- **Authentication**: OAuth2 / JWT  
+- **Payment Integration**: VNPay, Momo, PayPal  
 
 ---
 
-
-## Mục tiêu chính
-- Chuẩn hóa & số hóa quy trình **khám chữa bệnh**.
-- Hỗ trợ bệnh nhân **đặt lịch online** nhanh chóng.
-- Giảm tải cho nhân viên tiếp nhận, thu ngân, y tá.
-- Đảm bảo **minh bạch, chính xác** trong quản lý viện phí & thuốc.
+## Key Objectives
+- Standardize & digitalize hospital workflows  
+- Support patients with **online booking**  
+- Reduce workload for receptionists, cashiers, and nurses  
+- Ensure **transparency and accuracy** in fee & prescription management  
 
 ---
