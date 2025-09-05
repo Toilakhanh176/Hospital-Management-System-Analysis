@@ -4,11 +4,6 @@
 - **Bùi Mai Khanh**
 - **Lê Phúc Bảo Ngọc**
 
-# 🏥 Hospital Management System – System Analysis
-
-## Authors
-- Bùi Mai Khanh  
-- Lê Phúc Bảo Ngọc  
 
 ---
 
